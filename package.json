@@ -1,0 +1,22 @@
+{
+  "name": "atonal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.php",
+  "scripts": {
+    "dev": "webpack serve --mode development --config webpack.config.js",
+    "sass": "sass --watch --update --style=expanded dev/scss:dev/css",
+    "sass-prod": "sass --no-source-map --style=compressed dev/scss:assets/css",
+    "prod": "webpack --mode production --config webpack.config.js",
+    "build": "npm run prod && npm run sass-prod"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^10.2.4",
+    "sass": "^1.49.9",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
