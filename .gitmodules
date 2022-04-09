@@ -1,0 +1,3 @@
+[submodule "dev/modules"]
+	path = dev/modules
+	url = https://github.com/sigajeff/css-modules.git
