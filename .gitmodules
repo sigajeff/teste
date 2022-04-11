@@ -1,0 +1,9 @@
+[submodule "dev/modules"]
+	path = dev/modules
+	url = https://github.com/sigajeff/dev-modules.git
+[submodule "inc/utils"]
+	path = inc/utils
+	url = https://github.com/sigajeff/wp-utilities.git
+[submodule "inc/plugins"]
+	path = inc/plugins
+	url = https://github.com/sigajeff/wp-dev-plugins.git
