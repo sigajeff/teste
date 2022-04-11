@@ -15,7 +15,7 @@ Uma base padrão de desenvolvimento de temas em wordpress
 
 -Utilize o comando para clonar em 'wp-content/themes/'. Substitua o [new-theme]
 
-    git clone --recurse-submodules https://github.com/gittower/git-crash-course.git [new-theme]
+    git clone --recurse-submodules https://github.com/sigajeff/atonal_bp.git [new-theme]
 
 -Entre na pasta de seu tema e use os comandos para que o boiler plate não mais escute suas alterações
 
