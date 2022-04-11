@@ -21,8 +21,7 @@
   "devDependencies": {
     "@babel/core": "^7.17.5",
     "@babel/preset-env": "^7.16.11",
-    "@barba/core": "^2.9.7",
-    "@barba/css": "^2.1.15",
+    "@dogstudio/highway": "^2.2.1",
     "autoprefixer": "^10.4.2",
     "babel-loader": "^8.2.3",
     "copy-webpack-plugin": "^10.2.4",

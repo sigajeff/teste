@@ -4,3 +4,4 @@ node_modules
 *.ini
 dev/modules
 inc/utils
+inc/plugins
